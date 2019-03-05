@@ -26,3 +26,18 @@ Name: Old Package
 Author: Reposi3 <reposithree@gmail.com>
 Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
 
+Package: tian.topTime
+Version: 1.0.0-1
+Section: Widgets
+Maintainer: Tian 
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/topTime
+Size: 860
+MD5sum: 8c606f0c05217aa2a20949091fe516f0
+Description: Top bar time widget
+Name: topTime
+Author: Tian
+Depiction: https://christian-louria.github.io/depictions/?p=tian.topTime
+
+
