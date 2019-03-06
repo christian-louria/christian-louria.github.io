@@ -5,26 +5,12 @@ body{
       text-shadow:1px 1px 1px rgba(45,45,45,0.2);
       font-family:Cond;
       text-transform:uppercase;
-      color:#black;
+      color:white;
       letter-spacing:1;
       background-color: teal;
 }
-@font-face{
-      font-family:Galano;
-      src:url(Stuff/Galano.otf);
-}
-@font-face{
-      font-family:Cond;
-      src:url(Stuff/Cond.ttf);
-}
 
 
-
-
-/*#weatherIcon{
-       position:absolute; top:560px; left:44.25px; width:56.25px; z-index:50;
-       -webkit-filter:drop-shadow(1px 1px 1px rgba(45,45,45,0.2));
-}*/
 
 #temp{
   position: absolute;
@@ -72,8 +58,8 @@ body {
 }
 
 #thunderstromHider{
-  visibility: hidden;
-}
+/*  visibility: hidden;
+*/}
 
 .iconContainer{
   margin-right: auto;
@@ -175,7 +161,7 @@ body {
   width: 2.5em;
   height: 2.5em;
   margin: -1.25em;
-  background: currentColor;
+  background: transparent;
   border-radius: 50%;
   box-shadow: 0 0 0 0.375em yellow;
   animation: spin 12s infinite linear;
@@ -214,8 +200,24 @@ body {
   margin: -2em 1em;
 }
 
-.rain,
-.lightning,
+.rain{
+  position: absolute;
+  z-index: 0;
+  top: 55%;
+  left: 50%;
+  width: 3.75em;
+  height: 3.75em;
+  margin: 0.375em 0 0 -2em;
+}
+.lightning{
+  position: absolute;
+  z-index: 2;
+  top: 60%;
+  left: 50%;
+  width: 3.75em;
+  height: 3.75em;
+  margin: 0.375em 0 0 -2em;
+}
 .snow {
   position: absolute;
   z-index: 2;
@@ -224,7 +226,6 @@ body {
   width: 3.75em;
   height: 3.75em;
   margin: 0.375em 0 0 -2em;
-  background: currentColor;
 }
 
 .rain:after {
