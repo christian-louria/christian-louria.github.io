@@ -12,11 +12,17 @@
 
 <body onload="init()">
 
+<div id="Clock">
+  <a id="hour"></a>:<a id="minute"></a><a id="ampm"></a>
+</div>
 
-  <div id="Clock">
-    <a id="hour"></a>:<a id="minute"></a><a id="ampm">pm</a>
-  </div>
-  <div id="L"></div>
+
+
+<div id="weekday"></div>
+<div id="Cal">
+  <a id="month"></a> <a id="date"></a>
+</div>
+
 
 <script type="text/javascript">
 function mainUpdate(type){
@@ -26,8 +32,6 @@ function mainUpdate(type){
     }
     if(type == "weather"){
       document.getElementById('temp').innerHTML = weather.temperature + "&deg;";
-      document.getElementById('weatherIcon').src = 'Stuff/' + IconSet + "/" + weather.conditionCode + ".png";
-      document.getElementById('desc').innerHTML = weatherdesc[weather.conditionCode];
     }
 }
 </script>

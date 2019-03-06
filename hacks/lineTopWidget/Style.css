@@ -38,5 +38,21 @@ body{
       opacity:0.9;
 }
 
+#weekday{
+      visibility: hidden;
+}
+
+#Cal{
+      visibility: hidden;
+}
+
+#month{
+      visibility: hidden;
+}
+
+#date{
+      visibility: hidden;
+}
+
 
 
