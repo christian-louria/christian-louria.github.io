@@ -1,0 +1,32 @@
+<packageInfo>
+    <bundleId>animweatherhs</bundleId>
+    <name>Animated Weather HS</name>
+    <version>1.2</version>
+    <descriptions>
+        <description>
+           Beautiful CSS weather icons
+        </description>
+        <description>
+            Add weather icons and temperature to your homescreen.
+        </description>
+    </descriptions>
+    <compatibility>
+        <miniOS>12</miniOS>
+        <maxiOS>12</maxiOS>
+    </compatibility>
+    <dependencies>
+        <dependency>mobilesubstrate</dependency>
+        <dependency>some other dependency</dependency>
+    </dependencies>
+    <changelog>
+        <change>
+            <changeVersion>V1.2 </changeVersion>
+            <changeDescription>Added weather</changeDescription>
+            <changeDescription>cleaned it up</changeDescription>
+        </change>
+        <change>
+            <changeVersion>V1.0</changeVersion>
+            <changeDescription>Initial Release</changeDescription>
+        </change>
+    </changelog>
+</packageInfo>
