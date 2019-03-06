@@ -7,7 +7,7 @@ all:
 
 	fpm -s dir -t deb -n TW001 -a iphoneos-arm -v 1.2 hacks/TW001=/var/mobile/Library/SBHTML
 	fpm -s dir -t deb -n TW002 -a iphoneos-arm -v 1.1 hacks/TW002=/var/mobile/Library/SBHTML
-	fpm -s dir -t deb -n animweatherHS -a iphoneos-arm -v 1.1 hacks/animweatherHS=/var/mobile/Library/SBHTML
+	fpm -s dir -t deb -n animweatherHS -a iphoneos-arm -v 1.2 hacks/animweatherHS=/var/mobile/Library/SBHTML
 	fpm -s dir -t deb -n animweatherLS -a iphoneos-arm -v 1.1 hacks/animweatherLS=/var/mobile/Library/iWidgets
 
 
