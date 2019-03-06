@@ -7,7 +7,6 @@ body{
 
       color:#f3f3f3;
       letter-spacing:1;
-      background-color: black;
 }
 @font-face{
       font-family:Galano;
@@ -35,8 +34,8 @@ body{
 #L{
       position:absolute;
       top:80px;
-      left: 100px;
-      width:calc(100% - 200px);
+      left: 50px;
+      width:calc(100% - 100px);
       height:1px;
       z-index:-50;
       background-color:#f2f2f2;
@@ -63,7 +62,7 @@ body{
 #Cal{
       position: absolute;
       top: 90px;
-      left: 60px;
+      left: 20px;
       z-index:50;
       font-size:13.125px; 
       width: 100px;
@@ -78,16 +77,24 @@ body{
       margin-top: 15.5px;
 }
 
+#battery{
+  position: absolute;
+  top: 90px;
+  right: 20px;
+  z-index:50;
+  font-size:13.125px; 
+  width: 100px;
+  text-align: center;
+
+}
+
 #LevelDisplay{
-      position:absolute;
-      top:90px;
+      
       font-size: 4em;
-      right:60px;
       z-index:50;
 }
 #StateDisplay{
-       position:absolute; top:630px; left:262.5px; width:82.5px; text-align:center; z-index:50;
-       font-size:13.125px; 
+       margin-top: 15.5px;
 }
 
 
