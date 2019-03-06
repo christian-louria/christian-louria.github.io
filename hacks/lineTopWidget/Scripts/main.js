@@ -26,7 +26,7 @@ if (Clock == "12h"){
 document.getElementById("hour").innerHTML = currentHours;
 document.getElementById("minute").innerHTML = currentMinutes;
 document.getElementById("ampm").innerHTML = timeOfDay;
-document.getElementById("weekday").innerHTML = oneletterdays[currentTime.getDay()];
+// document.getElementById("weekday").innerHTML = oneletterdays[currentTime.getDay()];
 document.getElementById("date").innerHTML = currentDate;
 document.getElementById("month").innerHTML = months[currentTime.getMonth()];
 }
