@@ -13,7 +13,6 @@
 
 <body onload="init()">
 
-
   <div id="thunderstromHider">
     <div class="icon posr thunder-storm">
       <div class="cloud"></div>
@@ -31,6 +30,20 @@
     </div>
   </div>
 
+  <div id="moonHider">
+    <div class="icon posmo">
+      <div class="moon"></div>
+    </div>
+  </div>
+
+  <div id="partlymoonyHider">
+    <div class="icon poscm">
+      <div class="cloud "></div>
+    </div>
+    <div class="icon posmc">
+      <div class="moon"></div>
+    </div>
+  </div>
 
   <div id="rainHider">
     <div class="icon posr rainy">
@@ -91,11 +104,6 @@
   function mainUpdate(type){
 
     if(type == "weather"){
-
-
-
-
-
       document.getElementById('temp').innerHTML = weather.temperature + "&deg;";
 
       var weatherCond = weather.conditionCode;
@@ -107,6 +115,8 @@
         document.getElementById('snowHider').style.visibility = "hidden";
         document.getElementById('sunHider').style.visibility = "hidden";
         document.getElementById('thunderstromHider').style.visibility = "hidden";
+        document.getElementById('partlymoonyHider').style.visibility = "hidden";
+        document.getElementById('moonHider').style.visibility = "hidden";
       }
       else if (weatherCond < 5) {
         document.getElementById('thunderstromHider').style.visibility = "visible";
@@ -115,6 +125,8 @@
         document.getElementById('partlycloudyHider').style.visibility = "hidden";
         document.getElementById('snowHider').style.visibility = "hidden";
         document.getElementById('sunHider').style.visibility = "hidden";
+        document.getElementById('partlymoonyHider').style.visibility = "hidden";
+        document.getElementById('moonHider').style.visibility = "hidden";
       }
       else if (weatherCond < 13) {
         document.getElementById('rainHider').style.visibility = "visible";
@@ -123,6 +135,8 @@
         document.getElementById('snowHider').style.visibility = "hidden";
         document.getElementById('thunderstromHider').style.visibility = "hidden";
         document.getElementById('sunHider').style.visibility = "hidden";
+        document.getElementById('partlymoonyHider').style.visibility = "hidden";
+        document.getElementById('moonHider').style.visibility = "hidden";
       }
       else if (weatherCond > 12 && weatherCond < 19) {
          document.getElementById('snowHider').style.visibility = "visible";
@@ -131,22 +145,50 @@
          document.getElementById('partlycloudyHider').style.visibility = "hidden";
          document.getElementById('sunHider').style.visibility = "hidden";
          document.getElementById('thunderstromHider').style.visibility = "hidden";
+         document.getElementById('partlymoonyHider').style.visibility = "hidden";
+        document.getElementById('moonHider').style.visibility = "hidden";
       }
-      else if (weatherCond > 26 && weatherCond < 31) {
+      else if (weatherCond == 27 || weatherCond == 29) {
+        document.getElementById('partlymoonyHider').style.visibility = "visible";
+        document.getElementById('cloudyHider').style.visibility = "hidden";
+        document.getElementById('moonHider').style.visibility = "hidden";
+        document.getElementById('rainHider').style.visibility = "hidden";
+        document.getElementById('partlycloudyHider').style.visibility = "hidden";
+        document.getElementById('snowHider').style.visibility = "hidden";
+        document.getElementById('sunHider').style.visibility = "hidden";
+        document.getElementById('thunderstromHider').style.visibility = "hidden";
+      }
+      else if (weatherCond == 31 || weatherCond == 33) {
+        document.getElementById('moonHider').style.visibility = "visible";
+        document.getElementById('partlymoonyHider').style.visibility = "hidden";
+        document.getElementById('cloudyHider').style.visibility = "hidden";
+        document.getElementById('moonHider').style.visibility = "hidden";
+        document.getElementById('rainHider').style.visibility = "hidden";
+        document.getElementById('partlycloudyHider').style.visibility = "hidden";
+        document.getElementById('snowHider').style.visibility = "hidden";
+        document.getElementById('sunHider').style.visibility = "hidden";
+        document.getElementById('thunderstromHider').style.visibility = "hidden";
+      }
+
+      else if (weatherCond == 28 || weatherCond == 30) {
         document.getElementById('partlycloudyHider').style.visibility = "visible";
         document.getElementById('cloudyHider').style.visibility = "hidden";
         document.getElementById('rainHider').style.visibility = "hidden";
         document.getElementById('snowHider').style.visibility = "hidden";
         document.getElementById('sunHider').style.visibility = "hidden";
         document.getElementById('thunderstromHider').style.visibility = "hidden";
+        document.getElementById('partlymoonyHider').style.visibility = "hidden";
+        document.getElementById('moonHider').style.visibility = "hidden";
       }
-      else if (weatherCond > 30 && weatherCond < 35) {
+      else if (weatherCond == 32 || weatherCond == 35) {
         document.getElementById('sunHider').style.visibility = "visible";
         document.getElementById('cloudyHider').style.visibility = "hidden";
         document.getElementById('rainHider').style.visibility = "hidden";
         document.getElementById('partlycloudyHider').style.visibility = "hidden";
         document.getElementById('snowHider').style.visibility = "hidden";
         document.getElementById('thunderstromHider').style.visibility = "hidden";
+        document.getElementById('partlymoonyHider').style.visibility = "hidden";
+        document.getElementById('moonHider').style.visibility = "hidden";
       }
       else if (weatherCond > 37 && weatherCond < 41) {
         document.getElementById('rainHider').style.visibility = "visible";
@@ -155,6 +197,8 @@
         document.getElementById('snowHider').style.visibility = "hidden";
         document.getElementById('sunHider').style.visibility = "hidden";
         document.getElementById('thunderstromHider').style.visibility = "hidden";
+        document.getElementById('partlymoonyHider').style.visibility = "hidden";
+        document.getElementById('moonHider').style.visibility = "hidden";
       }
       else if (weatherCond > 40 && weatherCond < 43) {
          document.getElementById('snowHider').style.visibility = "visible";
@@ -163,6 +207,8 @@
          document.getElementById('partlycloudyHider').style.visibility = "hidden";
          document.getElementById('sunHider').style.visibility = "hidden";
          document.getElementById('thunderstromHider').style.visibility = "hidden";
+         document.getElementById('partlymoonyHider').style.visibility = "hidden";
+        document.getElementById('moonHider').style.visibility = "hidden";
       }
       else if (weatherCond == 48) {
         document.getElementById('partlycloudyHider').style.visibility = "visible";
@@ -171,6 +217,8 @@
         document.getElementById('snowHider').style.visibility = "hidden";
         document.getElementById('sunHider').style.visibility = "hidden";
         document.getElementById('thunderstromHider').style.visibility = "hidden";
+        document.getElementById('partlymoonyHider').style.visibility = "hidden";
+        document.getElementById('moonHider').style.visibility = "hidden";
       }
       else{
         document.getElementById('code').innerHTML = weatherCond;

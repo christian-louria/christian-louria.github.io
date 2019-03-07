@@ -1,15 +1,14 @@
 body{
-      margin:0;
-      padding:0;
-      font-weight:100;
-      text-shadow:1px 1px 1px rgba(45,45,45,0.2);
-      font-family:Cond;
-      text-transform:uppercase;
-      color:white;
-      letter-spacing:1;
+  margin:0;
+  padding:0;
+  font-weight:100;
+  text-shadow:1px 1px 1px rgba(45,45,45,0.2);
+  font-family:Cond;
+  text-transform:uppercase;
+  color:white;
+  letter-spacing:1;
+  background-color: black;
 }
-
-
 
 #temp{
   position: absolute;
@@ -57,6 +56,14 @@ body {
 }
 
 #thunderstromHider{
+  visibility: hidden;
+}
+
+#moonHider{
+  visibility: hidden;
+}
+
+#partlymoonyHider{
   visibility: hidden;
 }
 
@@ -108,7 +115,51 @@ body {
   left: calc(50% - 43px);
 }
 
+.posmo{
+  top: 2px;
+  left: calc(50% - 53px);
+}
 
+.posmc{
+  top: -10px;
+  left: calc(50% - 40px);
+}
+
+.poscm{
+  top: 10px;
+  left: calc(50% - 45px);
+}
+
+.moon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  background-color: grey;
+  box-shadow: 0 0 0 .4em #262626;
+  animation: spin 20s linear infinite;
+  margin: -1.25em;
+
+
+}
+
+.moon:after{
+    content: '';
+    z-index: 4;
+    left: 5;
+    top: 10;
+    position: absolute;
+    width: .5em;
+    height: .5em;
+    color: grey;
+    background-color: #403E3E;
+    border-radius: 50%;
+    box-shadow: 2px 15px 0 0.1em #262626, 14px 10px 0 0.14em #262626,
+     24px 20px 0 0.05em #403E3E, 20px 0px 0 0.05em #262626;
+
+}
 
 .cloud {
   position: absolute;
