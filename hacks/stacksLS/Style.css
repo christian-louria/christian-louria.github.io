@@ -127,6 +127,14 @@ body{
   visibility: hidden;
 }
 
+#moonHider{
+  visibility: hidden;
+}
+
+#partlymoonyHider{
+  visibility: hidden;
+}
+
 
 
 .icon {
