@@ -8,4 +8,4 @@ var Lang = "en";   // choose between "en", "ca", "fr", "de", "it", "ru", "pl", "
 
 var IconSet = "flat_white";   // choose your weather icon pack here
 
-var Temp = "true";  // choose between "true" or "false"
+// var Temp = "true";  // choose between "true" or "false"
