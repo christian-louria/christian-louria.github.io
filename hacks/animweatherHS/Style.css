@@ -7,8 +7,8 @@ body{
   text-transform:uppercase;
   color:white;
   letter-spacing:1;
-  background-color: black;
-}
+/*  background-color: black;
+*/}
 
 #temp{
   position: absolute;
