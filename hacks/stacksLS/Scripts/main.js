@@ -6,7 +6,7 @@ window.addEventListener("load", function() {
 function updateClock() { 
 var currentTime = new Date();
 var currentHours = currentTime.getHours();
-var currentMinutes = currentTime.getMinutes() < 10 ? currentTime.getMinutes() : currentTime.getMinutes();
+var currentMinutes = currentTime.getMinutes() < 10 ? "0" + currentTime.getMinutes() : currentTime.getMinutes();
 var currentSeconds = currentTime.getSeconds() < 10 ? currentTime.getSeconds() : currentTime.getSeconds();
 var currentDate = currentTime.getDate() < 10 ? currentTime.getDate() : currentTime.getDate();
 timeOfDay = ( currentHours < 12 ) ? "am" : "pm";
