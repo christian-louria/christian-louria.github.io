@@ -23,6 +23,7 @@ if (Clock == "12h"){
 	currentTimeString = currentHours + ":" + currentMinutes;
 }
 
+
 document.getElementById("hour").innerHTML = currentHours;
 document.getElementById("minute").innerHTML = currentMinutes;
 document.getElementById("ampm").innerHTML = timeOfDay;

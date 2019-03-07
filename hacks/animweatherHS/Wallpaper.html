@@ -52,7 +52,6 @@
     </div>
   </div>
 
-
   <div id="sunrainHider">
     <div class="icon possr sun-shower">
       <div class="cloud"></div>
@@ -104,10 +103,19 @@
   function mainUpdate(type){
 
     if(type == "weather"){
+
+      if (Temp == "true") {
+        document.getElementById("Temp").style.visibility = visible;
+
+      } else {
+        document.getElementById("Temp").style.visibility = hidden;
+      }
+
       document.getElementById('temp').innerHTML = weather.temperature + "&deg;";
 
       var weatherCond = weather.conditionCode;
-      
+
+
       if (weatherCond == 26) {
         document.getElementById('cloudyHider').style.visibility = "visible";
         document.getElementById('rainHider').style.visibility = "hidden";
