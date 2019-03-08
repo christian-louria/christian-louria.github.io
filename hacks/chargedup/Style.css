@@ -69,7 +69,7 @@ body{
 
 @keyframes up1 {
   1% { opacity: 0 }
-  2% { opacity: .8 }
+  5% { opacity: .8 }
   95% { opacity: 0}
   100% {bottom: 200px; opacity: 0}
 }
@@ -90,7 +90,7 @@ body{
 
 @keyframes up2 {
   1% { opacity: 0 }
-  2% { opacity: .8 }
+  5% { opacity: .8 }
   95% { opacity: 0}
   100% {bottom: 300px; opacity: 0}
 }
@@ -111,7 +111,7 @@ body{
 
 @keyframes up3 {
   1% { opacity: 0 }
-  2% { opacity: .8 }
+  5% { opacity: .8 }
   95% { opacity: 0}
   100% {bottom: 250px; opacity: 0;}
 }
@@ -132,7 +132,7 @@ body{
 
 @keyframes up4 {
   1% { opacity: 0 }
-  2% { opacity: .8 }
+  5% { opacity: .8 }
   95% { opacity: 0}
   100% {bottom: 350px; opacity: 0;}
 }
