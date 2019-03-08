@@ -13,14 +13,18 @@
 
 <body onload="init()">
 
-<div class="leftSide"></div>
-<div class="rightSide"></div>
-<div class="bottomSide"></div>
-<div class="charge1"></div>
-<div class="charge2"></div>
-<div class="charge3"></div>
-<div class="charge4"></div>
-<div class="charge5"></div>
+<div id="charging">
+  <div class="hideline"></div>
+  <div class="leftSide"></div>
+  <div class="rightSide"></div>
+  <div class="bottomSide"></div>
+  <div class="charge1"></div>
+  <div class="charge2"></div>
+  <div class="charge3"></div>
+  <div class="charge4"></div>
+  <div class="charge5"></div>
+</div>
+
 
  <div id="battery">
    <div id="LevelDisplay">XX</div>
@@ -35,6 +39,12 @@
 function mainUpdate(type){
     if(type == "battery"){
       document.getElementById('LevelDisplay').innerHTML = batteryPercent + "%";
+      if (batteryCharging) {
+         document.getElementById('charging').style.visibility = visible;
+      }
+      else{
+        document.getElementById('charging').style.visibility = hidden;
+      }
       document.getElementById('StateDisplay').innerHTML = (batteryCharging) ? 'Charging' : 'Discharging';
     }
 }
