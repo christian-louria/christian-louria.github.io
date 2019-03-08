@@ -116,6 +116,27 @@ body{
   100% {bottom: 250px; opacity: 0;}
 }
 
+.charge4{
+  position: absolute;
+  left: 150px;
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 15px;
+  height: 30px;
+  border-radius: 20px;
+  animation-name: up4;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up4 {
+  1% { opacity: 0 }
+  2% { opacity: .8 }
+  95% { opacity: 0}
+  100% {bottom: 350px; opacity: 0;}
+}
+
 
 #battery{
   position: absolute;
