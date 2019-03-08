@@ -63,6 +63,9 @@ function mainUpdate(type){
       }
       document.getElementById('StateDisplay').innerHTML = (batteryCharging) ? 'Charging' : 'Discharging';
     }
+    if(type == "weather"){
+      document.getElementById('temp').innerHTML = weather.temperature + "&deg;";
+    }
 }
 </script>
 
