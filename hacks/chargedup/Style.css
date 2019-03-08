@@ -32,7 +32,7 @@ body{
   left: -14px;
   bottom: 0;
   background-color: green;
-  box-shadow: 0 10px 50px 30px green;
+  box-shadow: 0 0 100px 10px green;
 }
 
 .rightSide{
@@ -42,7 +42,7 @@ body{
   right: -14px;
   bottom: 0;
   background-color: green;
-  box-shadow: 0 10px 50px 30px green;
+  box-shadow: 0 0 100px 10px green;
 }
 
 .bottomSide{
@@ -50,7 +50,7 @@ body{
   position: absolute;
   bottom: -10px;
   background-color: green;
-  box-shadow: 0 10px 50px 30px green;
+  box-shadow: 0 0 100px 10px green;
 }
 
 .charge1{
@@ -71,8 +71,8 @@ body{
   1% { opacity: 0 }
   5% { opacity: .8 }
   95% { opacity: 0}
-  99% {bottom: 200px; opacity: 0}
-  100% {bottom: -50px}
+  95% {bottom: 200px; opacity: 0}
+  100% {bottom: -100px; opacity: 0;}
 }
 
 .charge2{
@@ -93,8 +93,8 @@ body{
   1% { opacity: 0 }
   5% { opacity: .8 }
   95% { opacity: 0}
-  99% {bottom: 300px; opacity: 0}
-  100% {bottom: -50px}
+  95% {bottom: 300px; opacity: 0}
+  100% {bottom: -100px; opacity: 0;}
 }
 
 .charge3{
@@ -112,11 +112,11 @@ body{
 }
 
 @keyframes up3 {
-  1% { opacity: 0 }
+  0% { opacity: 0 }
   5% { opacity: .8 }
   95% { opacity: 0}
-  99% {bottom: 250px; opacity: 0;}
-  100% {bottom: -50px}
+  95% {bottom: 250px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
 }
 
 .charge4{
@@ -137,11 +137,449 @@ body{
   1% { opacity: 0 }
   5% { opacity: .8 }
   95% { opacity: 0}
-  99% {bottom: 350px; opacity: 0;}
-  100% {bottom: -50px}
+  95% {bottom: 350px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
 }
 
+.charge5{
+  position: absolute;
+  left: 170px;
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 10px;
+  height: 30px;
+  border-radius: 20px;
+  animation-name: up5;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
 
+@keyframes up5 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 350px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge6{
+  position: absolute;
+  left: 220px;
+  bottom: -50px;
+  background-color: green;
+  opacity: .8;
+  width: 30px;
+  height: 40px;
+  border-radius: 20px;
+  animation-name: up6;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up6 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 350px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge7{
+  position: absolute;
+  left: calc(50px + 50px);
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 20px;
+  height: 60px;
+  border-radius: 20px;
+  animation-name: up1;
+  animation-duration: 2.8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up1 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 200px; opacity: 0}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge8{
+  position: absolute;
+  left: calc(100px + 50px);
+  bottom: -50px;
+  background-color: green;
+  opacity: .8;
+  width: 30px;
+  height: 50px;
+  border-radius: 20px;
+  animation-name: up2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up2 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 300px; opacity: 0}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge9{
+  position: absolute;
+  left: calc(200px + 50px);
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 25px;
+  height: 45px;
+  border-radius: 20px;
+  animation-name: up3;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up3 {
+  0% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 250px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge10{
+  position: absolute;
+  left: calc(150px + 50px);
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 15px;
+  height: 30px;
+  border-radius: 20px;
+  animation-name: up4;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up4 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 350px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge11{
+  position: absolute;
+  left: calc(170px + 50px);
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 10px;
+  height: 30px;
+  border-radius: 20px;
+  animation-name: up5;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up5 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 350px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge12{
+  position: absolute;
+  left: calc(220px + 50px);
+  bottom: -50px;
+  background-color: green;
+  opacity: .8;
+  width: 30px;
+  height: 40px;
+  border-radius: 20px;
+  animation-name: up6;
+  animation-duration: 3.3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up6 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 350px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge13{
+  position: absolute;
+  left: calc(50px + 100px);
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 20px;
+  height: 60px;
+  border-radius: 20px;
+  animation-name: up1;
+  animation-duration: 2.3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up1 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 200px; opacity: 0}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge14{
+  position: absolute;
+  left: calc(100px + 100px);
+  bottom: -50px;
+  background-color: green;
+  opacity: .8;
+  width: 30px;
+  height: 50px;
+  border-radius: 20px;
+  animation-name: up2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up2 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 300px; opacity: 0}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge15{
+  position: absolute;
+  left: calc(200px + 100px);
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 25px;
+  height: 45px;
+  border-radius: 20px;
+  animation-name: up3;
+  animation-duration: 1.9s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up3 {
+  0% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 250px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge16{
+  position: absolute;
+  left: calc(150px + 100px);
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 15px;
+  height: 30px;
+  border-radius: 20px;
+  animation-name: up4;
+  animation-duration: .7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up4 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 350px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge17{
+  position: absolute;
+  left: calc(170px + 100px);
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 10px;
+  height: 30px;
+  border-radius: 20px;
+  animation-name: up5;
+  animation-duration: 2.4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up5 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 350px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge18{
+  position: absolute;
+  left: calc(220px + 100px);
+  bottom: -50px;
+  background-color: green;
+  opacity: .8;
+  width: 30px;
+  height: 40px;
+  border-radius: 20px;
+  animation-name: up6;
+  animation-duration: 1.1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up6 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 350px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge19{
+  position: absolute;
+  left: calc(50px - 100px);
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 20px;
+  height: 60px;
+  border-radius: 20px;
+  animation-name: up1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up1 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 200px; opacity: 0}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge20{
+  position: absolute;
+  left: calc(100px - 100px);
+  bottom: -50px;
+  background-color: green;
+  opacity: .8;
+  width: 30px;
+  height: 50px;
+  border-radius: 20px;
+  animation-name: up2;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up2 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 300px; opacity: 0}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge21{
+  position: absolute;
+  left: calc(200px - 100px);
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 25px;
+  height: 45px;
+  border-radius: 20px;
+  animation-name: up3;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up3 {
+  0% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 250px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge22{
+  position: absolute;
+  left: calc(150px - 100px);
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 15px;
+  height: 30px;
+  border-radius: 20px;
+  animation-name: up4;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up4 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 350px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge23{
+  position: absolute;
+  left: calc(170px - 100px);
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 10px;
+  height: 30px;
+  border-radius: 20px;
+  animation-name: up5;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up5 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 350px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
+
+.charge24{
+  position: absolute;
+  left: calc(220px - 100px);
+  bottom: -50px;
+  background-color: green;
+  opacity: .8;
+  width: 30px;
+  height: 40px;
+  border-radius: 20px;
+  animation-name: up6;
+  animation-duration: 3.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up6 {
+  1% { opacity: 0 }
+  5% { opacity: .8 }
+  95% { opacity: 0}
+  95% {bottom: 350px; opacity: 0;}
+  100% {bottom: -100px; opacity: 0;}
+}
 
 #battery{
   position: absolute;
