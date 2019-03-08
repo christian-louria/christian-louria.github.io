@@ -4,7 +4,7 @@ body{
   font-weight:100;
   text-shadow:1px 1px 1px rgba(45,45,45,0.2);
   font-family: 'Kanit', sans-serif;
-  color:#f3f3f3;
+  color:teal;
   letter-spacing:1;
 }
 @font-face{
@@ -31,8 +31,8 @@ body{
   position: absolute;
   left: -14px;
   bottom: 0;
-  background-color: teal;
-  box-shadow: 0 0 100px 10px teal;
+  background-color: currentColor;
+  box-shadow: 0 0 100px 10px currentColor;
 }
 
 .rightSide{
@@ -41,23 +41,23 @@ body{
   position: absolute;
   right: -14px;
   bottom: 0;
-  background-color: teal;
-  box-shadow: 0 0 100px 10px teal;
+  background-color: currentColor;
+  box-shadow: 0 0 100px 10px currentColor;
 }
 
 .bottomSide{
   width: 100%;
   position: absolute;
   bottom: -10px;
-  background-color: teal;
-  box-shadow: 0 0 100px 10px teal;
+  background-color: currentColor;
+  box-shadow: 0 0 100px 10px currentColor;
 }
 
 .charge1{
   position: absolute;
   left: 50px;
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 20px;
   height: 60px;
@@ -79,7 +79,7 @@ body{
   position: absolute;
   left: 100px;
   bottom: -50px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 30px;
   height: 50px;
@@ -101,7 +101,7 @@ body{
   position: absolute;
   left: 200px;
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 25px;
   height: 45px;
@@ -123,7 +123,7 @@ body{
   position: absolute;
   left: 150px;
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 15px;
   height: 30px;
@@ -145,7 +145,7 @@ body{
   position: absolute;
   left: 170px;
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 10px;
   height: 30px;
@@ -167,7 +167,7 @@ body{
   position: absolute;
   left: 220px;
   bottom: -50px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 30px;
   height: 40px;
@@ -189,7 +189,7 @@ body{
   position: absolute;
   left: calc(50px + 50px);
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 20px;
   height: 60px;
@@ -211,7 +211,7 @@ body{
   position: absolute;
   left: calc(100px + 50px);
   bottom: -50px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 30px;
   height: 50px;
@@ -233,7 +233,7 @@ body{
   position: absolute;
   left: calc(200px + 50px);
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 25px;
   height: 45px;
@@ -255,7 +255,7 @@ body{
   position: absolute;
   left: calc(150px + 50px);
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 15px;
   height: 30px;
@@ -277,7 +277,7 @@ body{
   position: absolute;
   left: calc(170px + 50px);
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 10px;
   height: 30px;
@@ -299,7 +299,7 @@ body{
   position: absolute;
   left: calc(220px + 50px);
   bottom: -50px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 30px;
   height: 40px;
@@ -321,7 +321,7 @@ body{
   position: absolute;
   left: calc(50px + 100px);
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 20px;
   height: 60px;
@@ -343,7 +343,7 @@ body{
   position: absolute;
   left: calc(100px + 100px);
   bottom: -50px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 30px;
   height: 50px;
@@ -365,7 +365,7 @@ body{
   position: absolute;
   left: calc(200px + 100px);
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 25px;
   height: 45px;
@@ -387,7 +387,7 @@ body{
   position: absolute;
   left: calc(150px + 100px);
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 15px;
   height: 30px;
@@ -409,7 +409,7 @@ body{
   position: absolute;
   left: calc(170px + 100px);
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 10px;
   height: 30px;
@@ -431,7 +431,7 @@ body{
   position: absolute;
   left: calc(220px + 100px);
   bottom: -50px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 30px;
   height: 40px;
@@ -453,7 +453,7 @@ body{
   position: absolute;
   left: calc(50px - 100px);
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 20px;
   height: 60px;
@@ -475,7 +475,7 @@ body{
   position: absolute;
   left: calc(100px - 100px);
   bottom: -50px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 30px;
   height: 50px;
@@ -497,7 +497,7 @@ body{
   position: absolute;
   left: calc(200px - 100px);
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 25px;
   height: 45px;
@@ -519,7 +519,7 @@ body{
   position: absolute;
   left: calc(150px - 100px);
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 15px;
   height: 30px;
@@ -541,7 +541,7 @@ body{
   position: absolute;
   left: calc(170px - 100px);
   bottom: -100px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 10px;
   height: 30px;
@@ -563,7 +563,7 @@ body{
   position: absolute;
   left: calc(220px - 100px);
   bottom: -50px;
-  background-color: teal;
+  background-color: currentColor;
   opacity: .8;
   width: 30px;
   height: 40px;
