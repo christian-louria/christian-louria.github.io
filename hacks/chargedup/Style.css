@@ -1,0 +1,125 @@
+body{
+  margin:0;
+  padding:0;
+  font-weight:100;
+  text-shadow:1px 1px 1px rgba(45,45,45,0.2);
+  font-family: 'Kanit', sans-serif;
+  color:#f3f3f3;
+  letter-spacing:1;
+background-color: black;
+}
+@font-face{
+  font-family:Galano;
+  src:url(Stuff/Galano.otf);
+}
+@font-face{
+  font-family:Cond;
+  src:url(Stuff/Cond.ttf);
+}
+
+
+.leftSide{
+  width: 10px;
+  height: 400px;
+  position: absolute;
+  left: -14px;
+  bottom: 0;
+  background-color: green;
+  box-shadow: 0 10px 200px 30px green;
+}
+
+.rightSide{
+  width: 10px;
+  height: 400px;
+  position: absolute;
+  right: -14px;
+  bottom: 0;
+  background-color: green;
+  box-shadow: 0 10px 200px 30px green;
+}
+
+.bottomSide{
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  background-color: green;
+  box-shadow: 0 10px 200px 30px green;
+}
+
+.charge1{
+  position: absolute;
+  left: 50px;
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 20px;
+  height: 60px;
+  border-radius: 20px;
+  animation-name: up1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up1 {
+  95% { opacity: 0}
+  100% {bottom: 200px; opacity: 0}
+}
+
+.charge2{
+  position: absolute;
+  left: 100px;
+  bottom: -50px;
+  background-color: green;
+  opacity: .8;
+  width: 30px;
+  height: 50px;
+  border-radius: 20px;
+  animation-name: up2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up2 {
+  95% { opacity: 0}
+  100% {bottom: 300px; opacity: 0}
+}
+
+.charge3{
+  position: absolute;
+  left: 200px;
+  bottom: -100px;
+  background-color: green;
+  opacity: .8;
+  width: 25px;
+  height: 45px;
+  border-radius: 20px;
+  animation-name: up3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes up3 {
+  95% { opacity: 0}
+  100% {bottom: 250px; opacity: 0;}
+}
+
+
+#battery{
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  z-index:50;
+  font-size:13.125px; 
+  width: 100px;
+  text-align: center;
+
+}
+
+#LevelDisplay{  
+  font-size: 3.5em;
+  z-index:50;
+}
+
+#StateDisplay{
+  margin-top: 5.5px;
+}
