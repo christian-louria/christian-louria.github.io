@@ -1,6 +1,6 @@
 /*
 Configurations
-Credits: Original code by Dacal & Junesiphone. Modified by Evelyn.
+Credits: Tian
 */
 
-var Color = "white";  // choose a color
+var Color = "red";  // choose a color

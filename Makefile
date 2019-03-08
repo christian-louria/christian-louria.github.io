@@ -12,7 +12,7 @@ all:
 	fpm -s dir -t deb -n animweatherHS -a iphoneos-arm -v 1.4.1 hacks/animweatherHS=/var/mobile/Library/SBHTML
 	fpm -s dir -t deb -n animweatherLS -a iphoneos-arm -v 1.1 hacks/animweatherLS=/var/mobile/Library/iWidgets
 	fpm -s dir -t deb -n stacksLS -a iphoneos-arm -v 2.1.1 hacks/stacksLS=/var/mobile/Library/iWidgets
-	fpm -s dir -t deb -n chargedup -a iphoneos-arm -v 2.2 hacks/chargedup=/var/mobile/Library/iWidgets
+	fpm -s dir -t deb -n chargedup -a iphoneos-arm -v 2.4 hacks/chargedup=/var/mobile/Library/iWidgets
 
 
 
