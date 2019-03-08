@@ -55,13 +55,14 @@
 function mainUpdate(type){
     if(type == "battery"){
       document.getElementById('LevelDisplay').innerHTML = batteryPercent + "%";
+      document.getElementById('StateDisplay').innerHTML = (batteryCharging) ? 'Charging' : 'Discharging';
+
       if (batteryCharging) {
          document.getElementById('charging').style.visibility = visible;
       }
       else{
         document.getElementById('charging').style.visibility = hidden;
       }
-      document.getElementById('StateDisplay').innerHTML = (batteryCharging) ? 'Charging' : 'Discharging';
     }
     if(type == "weather"){
       document.getElementById('temp').innerHTML = weather.temperature + "&deg;";
