@@ -32,7 +32,7 @@ body{
   left: -14px;
   bottom: 0;
   background-color: green;
-  box-shadow: 0 10px 100px 30px green;
+  box-shadow: 0 10px 50px 30px green;
 }
 
 .rightSide{
@@ -42,7 +42,7 @@ body{
   right: -14px;
   bottom: 0;
   background-color: green;
-  box-shadow: 0 10px 100px 30px green;
+  box-shadow: 0 10px 50px 30px green;
 }
 
 .bottomSide{
@@ -50,7 +50,7 @@ body{
   position: absolute;
   bottom: -10px;
   background-color: green;
-  box-shadow: 0 10px 100px 30px green;
+  box-shadow: 0 10px 50px 30px green;
 }
 
 .charge1{
@@ -71,7 +71,8 @@ body{
   1% { opacity: 0 }
   5% { opacity: .8 }
   95% { opacity: 0}
-  100% {bottom: 200px; opacity: 0}
+  99% {bottom: 200px; opacity: 0}
+  100% {bottom: -50px}
 }
 
 .charge2{
@@ -92,7 +93,8 @@ body{
   1% { opacity: 0 }
   5% { opacity: .8 }
   95% { opacity: 0}
-  100% {bottom: 300px; opacity: 0}
+  99% {bottom: 300px; opacity: 0}
+  100% {bottom: -50px}
 }
 
 .charge3{
@@ -113,7 +115,8 @@ body{
   1% { opacity: 0 }
   5% { opacity: .8 }
   95% { opacity: 0}
-  100% {bottom: 250px; opacity: 0;}
+  99% {bottom: 250px; opacity: 0;}
+  100% {bottom: -50px}
 }
 
 .charge4{
@@ -134,8 +137,10 @@ body{
   1% { opacity: 0 }
   5% { opacity: .8 }
   95% { opacity: 0}
-  100% {bottom: 350px; opacity: 0;}
+  99% {bottom: 350px; opacity: 0;}
+  100% {bottom: -50px}
 }
+
 
 
 #battery{
