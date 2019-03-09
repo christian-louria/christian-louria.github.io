@@ -52,6 +52,11 @@
 function mainUpdate(type){
     if(type == "battery"){
       document.getElementById('charging').style.color = Color;
+      if (Sides = "false") {
+        document.getElementById('leftSide').style.boxShadow = "none";
+        document.getElementById('rightSide').style.boxShadow = "none";
+        document.getElementById('bottomSide').style.boxShadow = "none";
+      }
 
       if (batteryCharging) {
          document.getElementById('charging').style.visibility = "visible";
