@@ -15,9 +15,9 @@
 
 <div id="charging">
   <div class="hideline"></div>
-  <div class="leftSide"></div>
-  <div class="rightSide"></div>
-  <div class="bottomSide"></div>
+  <div id="leftSide"></div>
+  <div id="rightSide"></div>
+  <div id="bottomSide"></div>
   <div class="charge1"></div>
   <div class="charge2"></div>
   <div class="charge3"></div>
@@ -52,14 +52,14 @@
 function mainUpdate(type){
     if(type == "battery"){
       document.getElementById('charging').style.color = Color;
-      if (Sides = "false") {
-        document.getElementById('leftSide').style.boxShadow = "none";
-        document.getElementById('rightSide').style.boxShadow = "none";
-        document.getElementById('bottomSide').style.boxShadow = "none";
+      if (Sides === "false") {
+        document.getElementById('leftSide').style.visibility = "hidden";
+        document.getElementById('rightSide').style.visibility = "hidden";
+        document.getElementById('bottomSide').style.visibility = "hidden";
       }
 
       if (batteryCharging) {
-         document.getElementById('charging').style.visibility = "visible";
+        document.getElementById('charging').style.visibility = "visible";
       }
       else{
         document.getElementById('charging').style.visibility = "hidden";
