@@ -4,7 +4,7 @@ body{
   font-weight:100;
   text-shadow:1px 1px 1px rgba(45,45,45,0.2);
   font-family: 'Kanit', sans-serif;
-  color:teal;
+  color:green;
   letter-spacing:1;
 }
 @font-face{
@@ -36,7 +36,6 @@ body{
 }
 
 .rightSide{
-  width: 10px;
   height: 400px;
   position: absolute;
   right: -14px;
