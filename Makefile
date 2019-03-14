@@ -5,6 +5,7 @@ all:
 	rm -rf hacks/animweatherLS/.DS_Store
 	rm -rf hacks/stacksLS/.DS_Store
 	rm -rf hacks/chargedup/.DS_Store
+	rm -rf hacks/glowTheme/.DS_Store
 
 
 	fpm -s dir -t deb -n lineBottomWidget -a iphoneos-arm -v 1.2 hacks/lineBottomWidget=/var/mobile/Library/SBHTML
@@ -13,6 +14,8 @@ all:
 	fpm -s dir -t deb -n animweatherLS -a iphoneos-arm -v 1.1 hacks/animweatherLS=/var/mobile/Library/iWidgets
 	fpm -s dir -t deb -n stacksLS -a iphoneos-arm -v 2.1.1 hacks/stacksLS=/var/mobile/Library/iWidgets
 	fpm -s dir -t deb -n chargedup -a iphoneos-arm -v 2.7.1 hacks/chargedup=/var/mobile/Library/iWidgets
+	fpm -s dir -t deb -n glowTheme -a iphoneos-arm -v 1.0 hacks/glowTheme=/Library/Themes
+
 
 
 
