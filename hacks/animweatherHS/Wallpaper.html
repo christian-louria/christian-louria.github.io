@@ -111,11 +111,11 @@
       //   document.getElementById("Temp").style.visibility = hidden;
       // }
 
-      // document.getElementById('temp').innerHTML = weather.temperature + "&deg;";
+      document.getElementById('temp').innerHTML = weather.temperature + "&deg;";
 
       var weatherCond = weather.conditionCode;
 
-      document.getElementById('temp').innerHTML = weatherCond;
+      //document.getElementById('temp').innerHTML = weatherCond;
 
       if (weatherCond == 26) {
         document.getElementById('cloudyHider').style.visibility = "visible";
