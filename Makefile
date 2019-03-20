@@ -14,7 +14,7 @@ all:
 	fpm -s dir -t deb -n animweatherLS -a iphoneos-arm -v 1.1 hacks/animweatherLS=/var/mobile/Library/iWidgets
 	fpm -s dir -t deb -n stacksLS -a iphoneos-arm -v 2.1.1 hacks/stacksLS=/var/mobile/Library/iWidgets
 	fpm -s dir -t deb -n chargedup -a iphoneos-arm -v 2.7.1 hacks/chargedup=/var/mobile/Library/iWidgets
-	fpm -s dir -t deb -n glowTheme -a iphoneos-arm -v 1.1 hacks/glowTheme=/Library/Themes
+	fpm -s dir -t deb -n glowTheme -a iphoneos-arm -v 1.2 hacks/glowTheme/Tian.theme=/Library/Themes
 
 
 
