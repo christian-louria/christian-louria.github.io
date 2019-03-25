@@ -1,0 +1,101 @@
+body{
+  margin:0;
+  padding:0;
+  font-weight:100;
+  text-shadow:1px 1px 1px rgba(45,45,45,0.2);
+  font-family: 'Kanit', sans-serif;
+  color:#f3f3f3;
+  letter-spacing:1;
+  }
+@font-face{
+  font-family:Galano;
+  src:url(Stuff/Galano.otf);
+}
+@font-face{
+  font-family:Cond;
+  src:url(Stuff/Cond.ttf);
+}
+
+#signalBars{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 3px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    transform: rotate(-21.6deg);
+}
+
+#bars{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+#wifiBars{
+    display: grid;
+    grid-template-columns: 33% 33% 33% 1fr;
+    grid-column-gap: 3px;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    transform: rotate(-21.6deg);
+}
+
+.wifiBar{
+    height: 6px;
+    width: 2px;
+    background-color: white;
+}
+
+.bar{
+    background-color: white;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+}
+
+
+#time{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    z-index: 50;
+    font-size: 70px;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 3;
+    transform: rotate(-21.6deg);
+    width: 200px;
+    text-align: left;
+}
+
+#Weather{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index:50;
+    font-size:40px;
+    margin-top: 85.3px;
+    transform: rotate(-323deg);
+}
+
+#date{
+    transform: rotate(-21.6deg);
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    left: 15px;
+}
+
+
+#LevelDisplay{  
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    right: 8px;
+    width: 80px;
+    font-size: 35px;
+    z-index: 50;
+    transform: rotate(-325deg);
+}
+
