@@ -79,12 +79,13 @@ body{
     transform: rotate(-323deg);
 }
 
-#date{
+#ip{
     transform: rotate(-21.6deg);
     font-size: 20px;
     position: absolute;
-    top: 120px;
-    left: 15px;
+    top: 130px;
+    left: 20px;
+    text-align: left;
 }
 
 

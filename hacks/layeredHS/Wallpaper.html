@@ -27,19 +27,22 @@
   <div></div>
 </div>
 
-<div id="time"></div>
+<div id="time">Tian</div>
 
 <div id="Weather">
 	<a id="desc"></a> <a id="temp">XX&deg;</a>
 </div>
 
-  <div id="date"></div> 
+  <div id="ip">Ip address</div> 
   <div id="LevelDisplay">100%</div>
 
 <script type="text/javascript">
 function mainUpdate(type){
     if(type == "battery"){
       document.getElementById('LevelDisplay').innerHTML = batteryPercent + "%";
+    }
+    else if (type == "system") {
+      document.getElementById('ip').innerHTML = ipAddress;
     }
     else if(type == "weather"){
       document.getElementById('temp').innerHTML = weather.temperature + "&deg;";

@@ -25,8 +25,6 @@ if (Clock == "12h"){
 }
 
 document.getElementById("time").innerHTML =`${currentHours}:${currentMinutes}`;
-document.getElementById("date").innerHTML = `${days[currentTime.getDay()]} ${months[currentTime.getMonth()]} ${currentDate}`;
-
 }
 
 function init(){
